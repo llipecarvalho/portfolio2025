@@ -255,7 +255,22 @@ iframe {
 /* =================================== */
 /*  2. Header
 /* =================================== */
-#header {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+.logo {
+  text-decoration: none;
+}
+
+.logo-text {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 2.5rem;
+  color: #000000;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none; /* reforço extra */
+}
+
+}#header {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
