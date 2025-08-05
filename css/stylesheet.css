@@ -4169,6 +4169,10 @@ html[dir="rtl"] #footer .nav .nav-item:last-child .nav-link {
 .social-icons.social-icons-colored li.social-icons-behance a {
   color: #053eff;
 }
+.social-icons li:hover.social-icons-whatsapp a,
+.social-icons.social-icons-colored li.social-icons-whatsapp a {
+  color: #07971a;
+}
 
 .social-icons li:hover.social-icons-google a,
 .social-icons.social-icons-colored li.social-icons-google a {
