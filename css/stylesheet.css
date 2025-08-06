@@ -48,8 +48,6 @@
 
 ==================================================================================*/
 /* == Web Fonts == */
-@import url("../../../../css2-1");
-@import url("../../../../css2-2");
 :root,
 [data-bs-theme="light"] {
   --bs-themecolor: #6610f2;
@@ -114,38 +112,6 @@ html {
   right: 0;
   bottom: 0;
 }
-.carousel-wrapper {
-  overflow: hidden;
-  width: 100%;
-  max-width: 100%;
-  background-color: #6610f2;
-  border: 0px solid #333;         /* Borda do retângulo */
-  border-radius: 0px;            /* Cantos arredondados */
-  padding: 16px 24px;             /* Espaço interno */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);  /* Sombra suave */
-  box-sizing: border-box;
-}
-
-.carousel-track {
-  display: flex;
-  white-space: nowrap;
-  animation: scroll 10s linear infinite;
-}
-
-.carousel-track span {
-  display: inline-block;
-  padding-right: 4rem;
-  font-size: 2rem;
-  font-weight: 600;
-  color: #ffffff;
-}
-
-@keyframes scroll {
-  0% { transform: translateX(0); }
-  100% { transform: translateX(-50%); }
-}
-
-
 
 .preloader .lds-ellipsis {
   display: inline-block;
@@ -284,6 +250,7 @@ iframe {
   font-family: var(--bs-heading-font-family);
 }
 
+
 /* =================================== */
 /*  2. Header
 /* =================================== */
@@ -302,7 +269,7 @@ iframe {
   text-decoration: none; /* reforço extra */
 }
 
-}#header {
+#header {
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease;
 }
@@ -4878,3 +4845,6 @@ input:-internal-autofill-selected {
   left: -40px;
   border-radius: 4px 0px 0px 4px;
 }
+
+
+
