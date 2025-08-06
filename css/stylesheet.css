@@ -114,6 +114,38 @@ html {
   right: 0;
   bottom: 0;
 }
+.carousel-wrapper {
+  overflow: hidden;
+  width: 100%;
+  max-width: 100%;
+  background-color: #6610f2;
+  border: 0px solid #333;         /* Borda do retângulo */
+  border-radius: 0px;            /* Cantos arredondados */
+  padding: 16px 24px;             /* Espaço interno */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);  /* Sombra suave */
+  box-sizing: border-box;
+}
+
+.carousel-track {
+  display: flex;
+  white-space: nowrap;
+  animation: scroll 10s linear infinite;
+}
+
+.carousel-track span {
+  display: inline-block;
+  padding-right: 4rem;
+  font-size: 2rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+@keyframes scroll {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+
 
 .preloader .lds-ellipsis {
   display: inline-block;
